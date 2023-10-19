@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-color: #fae049;
+  margin: 40px 0; 
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  min-height: 100vh;
+}
+
+.heart-img {
+  width: 30px;
+  height: 30px;
+}
+/*<a href="https://www.flaticon.com/free-icons/heart" title="heart icons">Heart icons created by Freepik - Flaticon</a>*/
+
+.share-img {
+  width: 30px;
+  height: 30px;
+}
+/*<a href="https://www.flaticon.com/free-icons/shortcut" title="shortcut icons">Shortcut icons created by Shahid-Mehmood - Flaticon</a>*/
+
+/*<a href="https://www.flaticon.com/free-icons/cat" title="cat icons">Cat icons created by Freepik - Flaticon</a>*/
+/*<a href="https://www.flaticon.com/free-icons/hero" title="hero icons">Hero icons created by Freepik - Flaticon</a>*/
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  margin-top: 100px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.card {
+  position: relative;
+  background-color: #FFFFF0;
+  min-width: 500px;
+  width: 100%;
+  margin: 0px auto 100px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  position: relative;
+  margin: -50px 0 10px;
+}
+
+.card-rating {
+  font-size: 20px;
+}
+
+.card-body-stars {
+  list-style-type: none; 
+  display: flex;
+  color: #eeff04;
+}
+
+.card-button {
+  display: inline-flex;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
   color: white;
+  padding: 10px 20px;background-color: #9a8030;
 }
 
-.App-link {
-  color: #61dafb;
+.card-button-more {
+  color: #9a8030;
+  text-decoration: none;
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-title {
+  margin: 0; 
+}
+
+.card-icons img {
+  margin: 0 10px;
+}
+
+.card-body-stars  {
+  padding: 0;
 }
